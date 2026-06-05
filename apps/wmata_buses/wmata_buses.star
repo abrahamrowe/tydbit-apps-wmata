@@ -52,7 +52,7 @@ def main(config):
                         children = [
                             render.Box(
                                 color = "#00f",
-                                width = 15,
+                                width = 19,
                                 height = 13,
                                 child = render.Row(
                                     children = [
@@ -72,7 +72,7 @@ def main(config):
                                 cross_align = "left",
                                 children = [
                                     render.Marquee(
-                                        width = 64,
+                                        width = 60,
                                         child = render.Text(predictions1[0]["DirectionText"]),
                                     ),
                                     render.Text(content = str(int(predictions1[0]["Minutes"])) + " min", font = "tom-thumb", color = "#FFD580"),
@@ -83,7 +83,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 height = 1,
                             ),
                         ],
@@ -91,7 +91,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 color = "#ffffff",
                                 height = 1,
                             ),
@@ -100,7 +100,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 height = 2,
                             ),
                         ],
@@ -109,7 +109,7 @@ def main(config):
                         children = [
                             render.Box(
                                 color = "#00f",
-                                width = 15,
+                                width = 19,
                                 height = 13,
                                 child = render.Row(
                                     children = [
@@ -128,7 +128,7 @@ def main(config):
                                 cross_align = "left",
                                 children = [
                                     render.Marquee(
-                                        width = 64,
+                                        width = 60,
                                         child = render.Text(predictions2[0]["DirectionText"]),
                                     ),
                                     render.Text(content = str(int(predictions2[0]["Minutes"])) + " min", font = "tom-thumb", color = "#FFD580"),
@@ -147,7 +147,7 @@ def main(config):
                         children = [
                             render.Box(
                                 color = "#00f",
-                                width = 15,
+                                width = 19,
                                 height = 13,
                                 child = render.Row(
                                     children = [
@@ -167,7 +167,7 @@ def main(config):
                                 cross_align = "left",
                                 children = [
                                     render.Marquee(
-                                        width = 64,
+                                        width = 60,
                                         child = render.Text(predictions1[0]["DirectionText"]),
                                     ),
                                     render.Text(content = str(int(predictions1[0]["Minutes"])) + " min", font = "tom-thumb", color = "#FFD580"),
@@ -178,7 +178,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 height = 1,
                             ),
                         ],
@@ -186,7 +186,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 color = "#ffffff",
                                 height = 1,
                             ),
@@ -195,7 +195,7 @@ def main(config):
                     render.Row(
                         children = [
                             render.Box(
-                                width = 64,
+                                width = 60,
                                 height = 2,
                             ),
                         ],
@@ -204,7 +204,7 @@ def main(config):
                         children = [
                             render.Box(
                                 color = "#00f",
-                                width = 15,
+                                width = 19,
                                 height = 13,
                                 child = render.Row(
                                     children = [
@@ -223,7 +223,7 @@ def main(config):
                                 cross_align = "left",
                                 children = [
                                     render.Marquee(
-                                        width = 64,
+                                        width = 60,
                                         child = render.Text(predictions1[1]["DirectionText"]),
                                     ),
                                     render.Text(content = str(int(predictions1[1]["Minutes"])) + " min", font = "tom-thumb", color = "#FFD580"),
